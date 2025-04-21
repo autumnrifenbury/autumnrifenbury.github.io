@@ -1,0 +1,47 @@
+h1 {color: rgb(1, 65, 224);
+    line-height: 0em;
+    font-family: "Teko", sans-serif;
+    font-size: 10em;    
+}
+
+
+
+ul#mainNav{ 
+    list-style-type:symbols(*);
+    text-align: center;
+}
+
+img {
+    width: 20%;
+    object-position: top;
+}
+
+body {
+    font-family: "Teko", sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+    text-decoration:none;
+    text-transform:none;
+    line-height: 1em ;
+    width: 50%;
+    position:center; 
+    margin: auto;
+}
+
+article {
+
+}
+
+html{
+    background-attachment:fixed;
+    background-color: rgb(192, 192, 192);
+    background-image: url("BLUE.JPG");
+    object-position: center;
+    background-blend-mode:soft-light;
+    background-repeat:repeat-x;
+}
+
+a:link {color: rgb(1, 65, 224)}
+a:visited {color: rgb(0, 0, 0);}
+a:hover {color:rgb(4, 119, 90)}
