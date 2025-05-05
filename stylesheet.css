@@ -1,19 +1,10 @@
-h1 {color: rgb(1, 65, 224);
-    line-height: 0em;
-    font-family: "Teko", sans-serif;
-    font-size: 10em;    
-}
-
-
-
-ul#mainNav{ 
-    list-style-type:symbols(*);
-    text-align: center;
-}
-
-img {
-    width: 20%;
-    object-position: top;
+html{
+    background-attachment:fixed;
+    background-color: rgb(192, 192, 192);
+    background-image: url("BLUE.JPG");
+    object-position: center;
+    background-blend-mode:soft-light;
+    background-repeat:repeat-x;
 }
 
 body {
@@ -28,19 +19,30 @@ body {
     position:center; 
     margin: auto;
 }
+ 
+h1 {color: rgb(1, 65, 224);
+    line-height: 0em;
+    font-family: "Teko", sans-serif;
+    font-size: 10em;    
+}
+
+
+
+ul#mainNav{ 
+    list-style-type:square;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+    object-position: top;
+}
 
 article {
 
 }
 
-html{
-    background-attachment:fixed;
-    background-color: rgb(192, 192, 192);
-    background-image: url("BLUE.JPG");
-    object-position: center;
-    background-blend-mode:soft-light;
-    background-repeat:repeat-x;
-}
+
 
 a:link {color: rgb(1, 65, 224)}
 a:visited {color: rgb(0, 0, 0);}
