@@ -7,9 +7,7 @@ html{
     background-repeat:repeat-x;
 }
 
-header{
-object-position: top left;
-}
+header{}
 body {
     font-family: "Teko", sans-serif;
     font-size: 2em;
@@ -77,8 +75,7 @@ a:link {color: rgb(1, 65, 224)}
 a:visited {color: rgb(0, 0, 0);}
 a:hover {color:rgb(4, 119, 90)}
 
-footer{
-object-position: bottom;
-
+footer{}
+.clear-right {
+    clear:right;
 }
-
