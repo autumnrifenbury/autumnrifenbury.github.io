@@ -1,10 +1,10 @@
 html{
-    background-attachment:fixed;
-    background-color: rgb(192, 192, 192);
-    background-image: url("BLUE.JPG");
-    object-position: center;
-    background-blend-mode:soft-light;
-    background-repeat:repeat-x;
+    background-attachment:local;
+    background-color: rgb(159, 158, 158);
+    background-image: url("bike.png");
+    background-blend-mode: soft-light;
+    background-size: 45em;
+    background-repeat: repeat-x
 }
 
 header{}
@@ -12,22 +12,21 @@ body {
     font-family: "Teko", sans-serif;
     font-size: 2em;
     font-weight: 100;
-    text-align: center;
+    text-align: left;
     text-decoration:none;
     text-transform:none;
-    line-height: 1em ;
-    width: 80%;
-    position:center; 
+    line-height: auto ;
+    width: 90%;
     margin: auto;
     padding: 0em;
+   
 }
 
-div:id
-    #wrapper {
+div id: #wrapper {
         width: 80%;
         margin: auto;
     }
-    .columns {float:right;}
+    .columns {float:left;}
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -41,33 +40,56 @@ div:id
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 
-
-    header{
-    position:relative;
-    width:50%;
-    height:50px;
-    padding:0px;}
-
-h1 {color: rgb(1, 65, 224);
-    line-height: .75em;
-    font-family: "Teko", sans-serif;
-    font-size: 10em;
-    object-position:0%;    
+div#bio{
+    padding:10%;
 }
 
 
+header{
+    width:50%;
+    height:50px;
+    padding-top: 0%;}
+
+    header {
+        display: block;
+        unicode-bidi: isolate;
+    }
+
+h1 {color:rgb(4, 119, 90);
+    line-height: .75em;
+    font-family: "Teko", sans-serif;
+    font-size: 5em;  
+} 
+
+h2 { justify-content: left;
+
+}
 
 ul#mainNav{ 
     list-style-type:square;
-    text-align: center;
+    text-align:left;
+    width: 50%;
+    padding: 0;
+    margin: auto;
+    display: inline;
 }
 
 img {
     width: 50%;
-    object-position: top;
+    overflow: auto;
+}
+
+.col-6 {
+    width
+}
+
+.col-12 {
+    width: 100%;
 }
 
 article { 
+
+
 
 }
 
@@ -77,7 +99,15 @@ a:link {color: rgb(1, 65, 224)}
 a:visited {color: rgb(0, 0, 0);}
 a:hover {color:rgb(4, 119, 90)}
 
-footer{}
-.clear-right {
-    clear:right;
+footer {
+    color:rgb(4, 119, 90);
+    clear:left;
+    margin-top: auto;
+    padding: 0;
+    width: 80%;
 }
+
+.mailto {
+    color:rgb(4, 119, 90);
+}
+
