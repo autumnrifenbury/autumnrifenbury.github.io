@@ -40,7 +40,25 @@ div id: #wrapper {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 
-div#bio{
+    #wrapper {
+        width: 90%;
+        margin: auto;
+        }
+        .column {
+        width: 33.33%;
+        float: left;
+        margin: 10%;
+        }
+        @media only screen and (max-width: 480px) {
+        .column {
+        width: 100%;
+        float: left;
+        margin: 0%;
+        }
+        }
+
+
+div #bio{
     padding:10%;
 }
 
@@ -80,7 +98,7 @@ img {
 }
 
 .col-6 {
-    width
+    width: 50%
 }
 
 .col-12 {
