@@ -1,0 +1,43 @@
+img {
+    width: 50%;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:link {color: rgb(0, 0, 0)}
+a:visited {color: rgb(0, 0, 0);}
+a:hover {color:rgb(4, 119, 90)}
+
+footer {
+    color:rgb(4, 119, 90);
+    clear:left;
+    margin-top: auto;
+    padding: 0;
+    width: 80%;
+}
+
+.mailto {
+    color:rgb(4, 119, 90);
+}
