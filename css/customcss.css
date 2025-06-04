@@ -1,0 +1,70 @@
+html{
+    background-attachment: fixed;
+    background-color: rgb(0, 0, 0);
+    background-repeat:repeat-y space;
+    background-size: 800px 600px; 
+    background-position: top left;
+    
+  
+}
+
+/* .averia-serif-libre-light {
+  color: antiquewhite;
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.averia-serif-libre-regular {
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+#header img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display:block;
+    animation-name: opacity;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#info {
+    color: rgb(255, 255, 255);
+    font-family: "averia serif libre", serif;
+}
+
+#info img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.one-half {
+  flex: 0 0 50%;
+}
+
+@keyframes opacity {
+   
+0%{
+    opacity: 100;
+}
+25%{
+    opacity: 0%;
+}
+75%{
+    opacity: 100;
+}
+100%{
+    opacity: 0%;
+}
+}
